@@ -1,3 +1,1 @@
-print("hello1")
-
-print("hello2")
+https://raw.githubusercontent.com/trancuong2674/download/refs/heads/main/script.lua
